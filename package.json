@@ -5,12 +5,13 @@
   "description": "Homepage for Koel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "gulp"
   },
   "author": "Phan An <me@phanan.net>",
   "license": "ISC",
   "devDependencies": {
     "del": "^2.2.0",
+    "es6-promise": "^3.0.2",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-livereload": "^3.8.1",
