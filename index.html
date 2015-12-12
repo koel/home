@@ -1,0 +1,109 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>koel</title>
+        <meta name="description" content="A personal music streaming server that works">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,100&subset=latin">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="dist/css/main.css">
+    </head>
+    <body>
+        <section class="jumbotron">
+            <h1 class="name">koel</h1>
+            <p class="tagline"><span>a personal music streaming server</span></p>
+            <p class="note">that works</p>
+
+            <nav>
+                <ul>
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#req">Requirements</a></li>
+                    <li><a href="#install">Installation &amp; Documentation</a></li>
+                    <li><a href="#github">Github</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section id="intro">
+            <h1>The story of <span class="name">koel</span></h1>
+
+            <div>
+                <p>My laptop went out of disk space – thank you Parallels.<br>
+                My phone only has 16GB of storage.<br>
+                I still have a good 40GB of mp3 stored in my external hard drive.<br>
+                But I have a server.<br>
+                So I started looking out for an open source, or at least free, music streaming server that I can make use of.<br>
+                I found a few. Atlas, none was good enough!<br>
+                In my despreration I asked myself this zero-dollar question:<br>
+                &quot;Heck, why not build one?&quot;<br>
+                And so <span class="name">koel</span> was born.<br>
+            </div>
+
+            <div class="why">
+                <p>And why &quot;koel?&quot;
+                Because it’s the name of a freaking bird that sings non-stop near my place. He looks like this:</p>
+
+                <img src="dist/img/logo.svg" class="logo" width="193" height="215" alt="koel's logo">
+            </div>
+        </section>
+
+        <section id="req">
+            <section class="tech">
+                <h1>The technologies of <span class="name">koel</span></h1>
+
+                <img src="dist/img/tech.png" width="1205" height="174" alt="koel's technologies">
+            </section>
+            <section class="req">
+                <h1>The requirements of <span class="name">koel</span></h1>
+
+                <div class="server">The server part of <span class="name">koel</span> requires a server (duh) that can run
+                    <a href="http://laravel.com/docs/5.1">Laravel 5.1</a>.</div>
+
+                <div class="client">
+                    <p>For the client part, <span class="name">koel</span> does’t aim to work for everyone.</p>
+                    <p>In order to do what it’s created to do, and do it best,
+                        <span class="name">koel</span> embraces some of the newest web technologies<br>
+                        – those only supported in modern browsers.
+                    </p>
+
+
+                    <img src="dist/img/browsers.png" class="browsers" width="398" height="73" alt="koel's supported browsers">
+
+                    <p>
+                        &quot;How to check if my browser is, uh, modern enough?&quot; you ask.<br>
+                        Well, if <del>you’re not using a modern browser, you wouldn’t be here at first place</del><br>
+                        this website doesn’t look broken to you, chances are it is.
+                    </p>
+            </section>
+        </section>
+
+        <section id="install">
+            <h1>The installation and documentation of <span class="name">koel</span></h1>
+
+            <div class="console">
+                <p><span class="prog">git</span> <span class="cmd">clone</span> https://github.com/phanan/koel &amp;&amp; <span class="prog">cd</span> koel</p>
+                <p><span class="prog">composer</span> <span class="cmd">install</span></p>
+                <p><span class="prog">vi</span> .env <span class="cmt"># Fill in database info and initial admin account</span></p>
+                <p><span class="prog">php</span> <span class="cmd">artisan</span> migrate <span class="arg">-f</span></p>
+                <p><span class="prog">php</span> <span class="cmd">artisan</span> db:seed <span class="arg">-f</span></p>
+                <p><span class="prog">npm</span> <span class="cmd">install</p>
+            </div>
+
+            <p>
+                Afterwards, from the web interface, go to Settings and enter the path to your songs. Click “Save,” and that’s it.<br>
+                For more installation guides, documentation, and troubleshooting, head over to the repo’s
+                    <a href="https://github.com/phanan/koel/wiki">Wiki</a>.<br>
+                While you’re there, make sure to fork and contribute!
+            </p>
+        </section>
+
+        <footer>
+            A project by <a href="http://phanan.net">Phan An</a>, because he’s got too much time on his hand.
+        </footer>
+    </body>
+</html>
