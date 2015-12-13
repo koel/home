@@ -89,8 +89,9 @@
                 <p><span class="prog">git</span> <span class="cmd">clone</span> https://github.com/phanan/koel &amp;&amp; <span class="prog">cd</span> koel</p>
                 <p><span class="prog">composer</span> <span class="cmd">install</span></p>
                 <p><span class="prog">vi</span> .env <span class="cmt"># Fill in database info and initial admin account</span></p>
-                <p><span class="prog">php</span> <span class="cmd">artisan</span> migrate <span class="arg">-f</span></p>
-                <p><span class="prog">php</span> <span class="cmd">artisan</span> db:seed <span class="arg">-f</span></p>
+                <p><span class="prog">php</span> <span class="cmd">artisan</span> key:generate</p>
+                <p><span class="prog">php</span> <span class="cmd">artisan</span> migrate <span class="arg">--force</span></p>
+                <p><span class="prog">php</span> <span class="cmd">artisan</span> db:seed <span class="arg">--force</span></p>
                 <p><span class="prog">npm</span> <span class="cmd">install</p>
             </div>
 
