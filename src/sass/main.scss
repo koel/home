@@ -340,6 +340,19 @@ footer {
     color: #fff;
     font-size: 15px;
 
+    a.keycdn {
+        font-size: 150%;
+        color: #fff;
+
+        &:hover {
+            border-bottom: 0;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+    }
+
     @media screen
     and (max-device-width: 414px) {
         font-size: 12px;
