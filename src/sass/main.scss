@@ -340,17 +340,18 @@ footer {
     color: #fff;
     font-size: 15px;
 
-    a.keycdn {
-        font-size: 150%;
-        color: #fff;
+    a.keycdn, a.exoscale {
+        margin: 12px 6px;
+        display: inline-block;
+        vertical-align: middle;
 
         &:hover {
             border-bottom: 0;
         }
+    }
 
-        img {
-            vertical-align: middle;
-        }
+    a.exoscale {
+        margin-top: 16px;
     }
 
     @media screen
