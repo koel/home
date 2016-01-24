@@ -137,8 +137,7 @@ section.jumbotron {
     nav a {
         display: inline-block;
         width: auto;
-        color: $purple;
-        background-color: #fff;
+        color: #fff;
         margin-top: 7px;
         line-height: 40px;
         padding: 0 35px 0 20px;
@@ -149,6 +148,24 @@ section.jumbotron {
             background-color: $orange;
             color: #fff;
             border-bottom: 0;
+        }
+
+        &.pink {
+            background: $pink;
+        }
+
+        &.green {
+            background: $green;
+        }
+
+        &.yellow {
+            background: $yellow;
+            color: #333;
+        }
+
+        &.blue {
+            background: $blue;
+
         }
     }
 
@@ -357,5 +374,12 @@ footer {
     @media screen
     and (max-device-width: 414px) {
         font-size: 12px;
+    }
+
+    @media screen
+    and (max-device-width: 320px) {
+        a.keycdn {
+            margin-top: 0;
+        }
     }
 }
