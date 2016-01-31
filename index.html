@@ -88,11 +88,10 @@
 
             <div class="console">
                 <p><span class="prog">git</span> <span class="cmd">clone</span> https://github.com/phanan/koel &amp;&amp; <span class="prog">cd</span> koel</p>
-                <p>NODE_ENV=production &amp;&amp; <span class="prog">npm</span> <span class="cmd">install</span></p>
+                <p><span class="prog">npm</span> <span class="cmd">install</span></p>
                 <p><span class="prog">composer</span> <span class="cmd">install</span></p>
                 <p><span class="prog">vi</span> .env <span class="cmt"># Fill in database info and initial admin account</span></p>
-                <p><span class="prog">php</span> <span class="cmd">artisan</span> init</p>
-                <p><span class="prog">php</span> <span class="cmd">artisan</span> serve</p>
+                <p><span class="prog">php</span> <span class="cmd">artisan</span> koel:init</p>
                 <p><span class="cmt">Server started on http://localhost:8000/</span></p>
             </div>
 
