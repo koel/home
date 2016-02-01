@@ -163,6 +163,11 @@ section.jumbotron {
             color: #333;
         }
 
+        &.white {
+            background: $white;
+            color: #333;
+        }
+
         &.blue {
             background: $blue;
 
