@@ -71,4 +71,5 @@ node_modules
 *.css.map
 
 
-dist/
+dist/img/
+dist/css/

@@ -8,7 +8,7 @@ let local = false
 
 const createEnvBasedTask = taskFunc => local ? taskFunc().pipe(livereload()) : taskFunc()
 
-gulp.task('clean', cb => del(['dist/js/**', 'dist/css/**'], cb))
+gulp.task('clean', cb => del(['dist/js/**', 'dist/css/**', 'dist/img/**'], cb))
 
 gulp.task('sass', gulp.series('clean', () => {
     return createEnvBasedTask(() => {

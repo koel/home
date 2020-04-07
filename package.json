@@ -5,7 +5,8 @@
   "description": "Homepage for Koel",
   "main": "index.js",
   "scripts": {
-    "postinstall": "gulp"
+    "postinstall": "gulp",
+    "build": "gulp"
   },
   "author": "Phan An <me@phanan.net>",
   "license": "ISC",
