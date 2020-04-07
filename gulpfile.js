@@ -27,8 +27,8 @@ gulp.task('watch', () => {
     local = true
     livereload.listen()
 
-    gulp.watch('src/sass/**/*.scss',  ['sass'])
-    gulp.watch('src/img/**/*', ['img'])
+    gulp.watch('src/sass/**/*.scss',  gulp.series(['sass']))
+    gulp.watch('src/img/**/*', gulp.series(['img']))
 })
 
 gulp.task('default', gulp.series('clean', gulp.parallel('sass', 'img'), cb => cb()))

@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "gulp",
-    "build": "gulp"
+    "build": "gulp",
+    "dev": "gulp watch"
   },
   "author": "Phan An <me@phanan.net>",
   "license": "ISC",
