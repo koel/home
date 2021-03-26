@@ -86,10 +86,10 @@
 
             <div class="console-wrap">
                 <div class="console">
-                    <p><span class="prog">git</span> <span class="cmd">clone --recurse-submodules</span> https://github.com/koel/koel</p>
+                    <p><span class="prog">unzip</span> koel-latest.zip</p>
                     <p><span class="prog">cd</span> koel</p>
                     <p><span class="prog">composer</span> <span class="cmd">install</span></p>
-                    <p><span class="prog">php</span> <span class="cmd">artisan</span> koel:init</p>
+                    <p><span class="prog">php</span> <span class="cmd">artisan</span> koel:init --no-assets</p>
                     <p><span class="prog">php</span> <span class="cmd">artisan</span> serve</p>
                     <p><span class="cmt">Server started on http://localhost:8000/</span></p>
                 </div>
