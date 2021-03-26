@@ -56,7 +56,7 @@ ul.browsers {
 }
 
 del {
-  color: var(--grey);
+  opacity: .6;
 }
 
 @media (max-device-width: 414px) {
