@@ -1,24 +1,27 @@
 {
-  "private": true,
-  "name": "koel.phanan.net",
+  "name": "koel",
   "version": "1.0.0",
-  "description": "Homepage for Koel",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "postinstall": "gulp",
-    "build": "gulp",
-    "dev": "gulp watch"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
   },
-  "author": "Phan An <me@phanan.net>",
-  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "nuxt": "^2.15.3"
+  },
   "devDependencies": {
-    "del": "^2.2.0",
-    "es6-promise": "^3.0.2",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-util": "^3.0.7",
-    "gulp-watch": "^4.3.5"
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@vue/test-utils": "^1.1.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "node-sass": "^5.0.0",
+    "ts-jest": "^26.5.4",
+    "vue-jest": "^3.0.4"
   }
 }

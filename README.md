@@ -1,6 +1,22 @@
-# Koel's homepage
+# koel's homepage
 
-The source code for [Koel's homepage](http://koel.phanan.net). Very basic HTML and SASS, no rocket science here.
+> koel's [homepage](https://koel.dev), built on top of Nuxt.js.
 
-### License
-MIT &copy; Phan An
+## Build Setup
+
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
