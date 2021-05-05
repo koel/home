@@ -1,15 +1,17 @@
 <template>
   <section class="jumbotron flex">
     <h1 class="font-thin">koel</h1>
-    <p class="tagline"><span>a personal music streaming server</span></p>
-    <p class="note">that works</p>
+    <p class="tagline">
+      <span>a personal music streaming server</span>
+      <span class="note">that works</span>
+    </p>
 
     <nav>
       <ul>
         <li><a class="blue" href="#intro">Introduction</a></li>
         <li><a class="green" href="#req">Requirements</a></li>
         <li><a class="pink" href="https://docs.koel.dev">Installation &amp; Documentation</a></li>
-        <li><a class="yellow" href="http://demo.koel.dev">Demo</a></li>
+        <li><a class="yellow" href="https://demo.koel.dev">Demo</a></li>
         <li><a class="white" href="https://github.com/koel/koel">GitHub</a></li>
       </ul>
     </nav>
@@ -18,7 +20,7 @@
 
 <script>
 export default {
-name: "Jumbotron"
+  name: "Jumbotron"
 }
 </script>
 
@@ -43,13 +45,13 @@ section {
   }
 
   .tagline {
-    span {
-      color: var(--white);
+    color: var(--white);
+    font-size: 1.3rem;
+
+    span:first-child {
       background-color: var(--black);
       display: inline-block;
-      line-height: 2.5;
-      padding: 0 2rem 0 1rem;
-      font-size: 1.3rem;
+      padding: .6rem 2rem .6rem 1rem;
 
       &::after {
         content: "*";
@@ -57,18 +59,18 @@ section {
         margin-left: .5rem;
       }
     }
-  }
 
-  .note {
-    padding-left: 20px;
-    margin: .55rem 0 2.25rem;
-    font-size: .83rem;
-    color: var(--white);
+    .note {
+      display: block;
+      padding-left: 20px;
+      margin: .5rem 0 2.25rem;
+      font-size: .83rem;
 
-    &::before {
-      content: "*";
-      color: var(--orange);
-      margin-right: .5rem;
+      &::before {
+        content: "*";
+        color: var(--orange);
+        margin-right: .5rem;
+      }
     }
   }
 
@@ -125,7 +127,6 @@ section {
     background-size: 1221px;
     pointer-events: none;
   }
-
 
   @media (max-device-width: 1024px) {
     &::before {
