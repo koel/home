@@ -12,6 +12,7 @@
         <li><a class="green" href="#req">Requirements</a></li>
         <li><a class="pink" href="https://docs.koel.dev">Installation &amp; Documentation</a></li>
         <li><a class="yellow" href="https://demo.koel.dev">Demo</a></li>
+        <li><a class="orange" href="#mobile">Mobile Apps</a></li>
         <li><a class="white" href="https://github.com/koel/koel">GitHub</a></li>
       </ul>
     </nav>

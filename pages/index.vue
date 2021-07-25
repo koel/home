@@ -5,6 +5,7 @@
     <Technologies/>
     <Requirements/>
     <Installation/>
+    <MobileApp/>
     <PageFooter/>
   </div>
 </template>
@@ -17,9 +18,18 @@ import Requirements from '~/components/Requirements.vue'
 import Technologies from '~/components/Technologies.vue'
 import Installation from '~/components/Installation.vue'
 import PageFooter from '~/components/PageFooter.vue'
+import MobileApp from '~/components/MobileApp.vue'
 
 export default Vue.extend({
-  components: { PageFooter, Installation, Technologies, Requirements, Introduction, Jumbotron }
+  components: {
+    PageFooter,
+    Installation,
+    Technologies,
+    Requirements,
+    Introduction,
+    Jumbotron,
+    MobileApp
+  }
 })
 </script>
 
