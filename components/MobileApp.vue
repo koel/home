@@ -1,6 +1,6 @@
 <template>
   <PageSection id="mobile">
-    <template #heading><span class="font-thin">koel</span> Player</template>
+    <template #heading>The mobile app for <span class="font-thin">koel</span></template>
 
     <img
       class="showcase"
@@ -12,10 +12,12 @@
 
     <div class="intro">
       <p>
-        The official iOS and Android mobile apps for <span class="font-thin">koel</span>. 
+        <a href="https://github.com/koel/player">Koel Player</a> is the official iOS and Android mobile app for 
+        <span class="font-thin">koel</span>. 
         Connect to your <span class="font-thin">koel</span>-powered server and enjoy the music whenever you may roam, 
         without the unfortunate <a href="https://docs.koel.dev/#mobile-support-and-limitation">limitations</a> of the 
-        mobile web version. <a href="https://github.com/koel/player">Open-source</a>, of course.
+        mobile web version. <br>
+        <a href="https://github.com/koel/player">Open-source</a>, of course.
       </p>
     </div>
 
