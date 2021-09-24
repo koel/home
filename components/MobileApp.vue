@@ -14,7 +14,7 @@
       <p>
         <a href="https://github.com/koel/player">Koel Player</a> is the official iOS and Android mobile app for
         <span class="font-thin">koel</span>.
-        Connect to your <span class="font-thin">koel</span>-powered server and enjoy the music whenever you may roam,
+        Connect to your <span class="font-thin">koel</span>-powered server and enjoy the music wherever you may roam,
         without the unfortunate <a href="https://docs.koel.dev/#mobile-support-and-limitation">limitations</a> of the
         mobile web version. <br>
         <a href="https://github.com/koel/player">Open-source</a>, of course.
