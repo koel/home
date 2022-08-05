@@ -5,7 +5,6 @@
       <div class="console">
         <p><span class="prog">unzip</span> koel-latest.zip</p>
         <p><span class="prog">cd</span> koel</p>
-        <p><span class="prog">composer</span> <span class="cmd">install</span></p>
         <p>
           <span class="prog">php</span>
           <span class="cmd">artisan</span> koel:init
@@ -15,7 +14,6 @@
         <p><span class="cmt">Server started on http://localhost:8000/</span></p>
       </div>
       <p class="muted note">
-        Demonstration purpose only.
         Visit <a href="https://docs.koel.dev/#/?id=installation">documentation</a> for detailed instructions.
       </p>
     </div>
