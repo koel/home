@@ -9,11 +9,6 @@
         </a>
       </li>
       <li>
-        <a class="exoscale" href="https://www.exoscale.ch" title="Exoscale: Swiss cloud hosting">
-          <img alt="Exoscale logo" src="~/assets/img/sponsors/exoscale.svg" height="32" width="auto">
-        </a>
-      </li>
-      <li>
         <a class="keycdn" href="https://www.keycdn.com/?a=11519" title="KeyCDN - Content Delivery Made Easy">
           <img alt="KeyCDN logo" src="~/assets/img/sponsors/keycdn.svg" height="32">
         </a>
