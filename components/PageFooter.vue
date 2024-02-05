@@ -5,17 +5,22 @@
     <ul class="sponsors flex place-content-center align-items-center">
       <li>
         <a class="render" href="https://render.com" title="Render - Cloud Hosting for Developers">
-          <img alt="Render logo" src="~/assets/img/sponsors/render.svg" height="28">
+          <img alt="Render logo" src="~/assets/img/sponsors/render.svg" height="28"/>
+        </a>
+      </li>
+      <li>
+        <a class="do" href="https://www.digitalocean.com/?refcode=5860de5f25fe&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge" title="DigitalOcean">
+          <img alt="DigitalOcean logo" src="~/assets/img/sponsors/do.svg" height="28"/>
         </a>
       </li>
       <li>
         <a class="keycdn" href="https://www.keycdn.com/?a=11519" title="KeyCDN - Content Delivery Made Easy">
-          <img alt="KeyCDN logo" src="~/assets/img/sponsors/keycdn.svg" height="32">
+          <img alt="KeyCDN logo" src="~/assets/img/sponsors/keycdn.svg" height="32"/>
         </a>
       </li>
       <li>
         <a class="whatthediff" href="https://whatthediff.ai" title="What The Diff - AI powered changelog generation">
-          <img alt="What The Diff logo" src="~/assets/img/sponsors/what-the-diff.svg" height="22">
+          <img alt="What The Diff logo" src="~/assets/img/sponsors/what-the-diff.svg" height="22"/>
         </a>
       </li>
     </ul>
