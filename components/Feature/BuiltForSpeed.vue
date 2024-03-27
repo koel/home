@@ -17,9 +17,16 @@
       <template #media-pane>
         <WithBacklight :color="'rgb(255, 0, 242)'">
           <WithGradientBorder class="rounded-lg sm:rounded-xl shadow-lg" color="rgb(168 85 247)">
-            <video autoplay loop controls muted playsinline class="w-full h-full rounded-lg sm:rounded-xl border border-purple-900/30">
-              <source src="@/assets/videos/search.webm" type="video/webm" />
+            <video
+              autoplay
+              loop
+              muted
+              playsinline
+              poster="@/assets/videos/search-poster.webp"
+              class="w-full h-full rounded-lg sm:rounded-xl border border-purple-900/30"
+            >
               <source src="@/assets/videos/search.mp4" type="video/mp4" />
+              <source src="@/assets/videos/search.webm" type="video/webm" />
             </video>
           </WithGradientBorder>
         </WithBacklight>

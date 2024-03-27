@@ -1,7 +1,7 @@
 <template>
   <footer class="text-sm text-center px-5 sm:px-32 py-12 pb-12 border-t bg-black/10 border-gray-500/10 space-y-2">
     <p>
-      &copy; 2015-{{ new Date().getFullYear() }}
+      &copy; 2015-now
       <a rel="author" class="text-pink-500 hover:text-pink-400" href="https://phanan.net">Phan An</a>
       – MIT License.
     </p>
