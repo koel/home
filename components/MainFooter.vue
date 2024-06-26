@@ -11,10 +11,11 @@
     <ul class="flex items-center place-content-center gap-2 sm:gap-4 pt-4">
       <li>
         <SponsorLogo
-          :logo="renderLogo"
-          name="Render"
-          slogan="Cloud Hosting for Developers"
-          url="https://render.com"
+          :logo="keycdnLogo"
+          class="h-[32px]"
+          name="KeyCDN"
+          slogan="Content Delivery Made Easy"
+          url="https://www.keycdn.com/?a=11519"
         />
       </li>
       <li>
@@ -27,20 +28,19 @@
       </li>
       <li>
         <SponsorLogo
-          :logo="keycdnLogo"
-          class="h-[32px]"
-          name="KeyCDN"
-          slogan="Content Delivery Made Easy"
-          url="https://www.keycdn.com/?a=11519"
+          :logo="whatTheDiffLogo"
+          name="What The Diff"
+          slogan="AI powered changelog generation"
+          url="https://whatthediff.ai"
         />
       </li>
       <li>
         <SponsorLogo
-          :logo="whatTheDiffLogo"
+          :logo="rayLogo"
           class="h-[22px]"
-          name="What The Diff"
-          slogan="AI powered changelog generation"
-          url="https://whatthediff.ai"
+          name="Ray"
+          slogan="Understand and fix bugs faster using Ray"
+          url="https://myray.app"
         />
       </li>
     </ul>
@@ -49,7 +49,7 @@
 
 <script setup lang="ts">
 import keycdnLogo from '@/assets/img/sponsors/keycdn.svg'
-import renderLogo from '@/assets/img/sponsors/render.svg'
 import doLogo from '@/assets/img/sponsors/do.svg'
 import whatTheDiffLogo from '@/assets/img/sponsors/what-the-diff.svg'
+import rayLogo from '@/assets/img/sponsors/ray.svg'
 </script>
