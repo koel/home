@@ -18,12 +18,12 @@
           <img alt="What The Diff logo" src="~/assets/img/sponsors/what-the-diff.svg" height="22"/>
         </a>
       </li>
-    </ul>
       <li>
         <a class="ray" href="https://myray.app" title="Understand and fix bugs faster with Ray">
           <img alt="Ray logo" src="~/assets/img/sponsors/ray.svg" height="22"/>
         </a>
       </li>
+    </ul>
   </footer>
 </template>
 
