@@ -58,7 +58,7 @@ footer {
       margin-left: 1rem;
     }
 
-    img {
+    .whatthediff img {
       filter: grayscale(1) invert(1);
     }
 

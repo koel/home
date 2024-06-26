@@ -3,24 +3,18 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient);
+      fill: url(#linear-gradient);
       }
 
       .cls-1, .cls-2 {
-        stroke-width: 0px;
+      stroke-width: 0px;
       }
 
       .cls-2 {
-        fill: url(#radial-gradient);
+      fill: #fff;
       }
     </style>
-    <radialGradient id="radial-gradient" cx="210.94" cy="24.04" fx="210.94" fy="24.04" r="119.13" gradientTransform="translate(0 93.79) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#4f2fa3"/>
-      <stop offset=".45" stop-color="#33157f"/>
-      <stop offset=".77" stop-color="#1e0063"/>
-      <stop offset=".98" stop-color="#271059"/>
-    </radialGradient>
-    <linearGradient id="linear-gradient" x1="28" y1="44.89" x2="220.84" y2="44.89" gradientTransform="translate(0 93.79) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="28" y1="-848.51" x2="220.84" y2="-848.51" gradientTransform="translate(0 -799.61) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ff3400"/>
       <stop offset=".06" stop-color="#ff4a00"/>
       <stop offset=".08" stop-color="#f50"/>
@@ -36,7 +30,7 @@
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
       <path class="cls-2" d="m60.11,59.47l18.21,32.32h-31.47l-14.21-26.63h-4.53v26.63H0V.53h37.58c14.11,0,23.89,3.47,30,9.68,5.37,5.37,8.21,12.21,8.21,21.79v.74c-.11,13.16-6.32,21.68-15.68,26.74ZM113.37,0l-31.58,91.79h29.37l16.74-57.58,16.84,57.58h29.89L143.05,0s-29.68,0-29.68,0Zm106.42.53l-12.63,30L194.63.53h-30.74l28.95,59.05v32.21h28.11v-32.42L250,.53h-30.21Z"/>
-      <path class="cls-1" d="m37.16,44.53c6.21,0,10.32-3.37,10.32-9.79v-.63c0-6.53-4-9.79-10.21-9.79h-9.26v20.21s9.16,0,9.16,0Zm93.68,0l5.05,17.47,29.68,4-4-11.89-30.74-9.58m-29.58-9.26l-7.26,21.16,26.42,3.47,4.95-17.16-24.11-7.47m91.47,28.63l28.11,8.84v.74l-28.11-3.79v-5.79"/>
+      <path class="cls-1" d="m37.16,44.53c6.21,0,10.32-3.37,10.32-9.79v-.63c0-6.53-4-9.79-10.21-9.79h-9.26v20.21h9.16Zm93.68,0l5.05,17.47,29.68,4-4-11.89-30.74-9.58m-29.58-9.26l-7.26,21.16,26.42,3.47,4.95-17.16-24.11-7.47m91.47,28.63l28.11,8.84v.74l-28.11-3.79v-5.79"/>
     </g>
   </g>
 </svg>
