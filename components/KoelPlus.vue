@@ -30,7 +30,13 @@
           </ul>
         </FadesIntoView>
 
-        <div class="mt-12 text-center">
+        <div class="mt-12 text-center space-x-2">
+          <a
+            class="inline-block transition-all px-6 py-3 rounded-md ring-1 ring-gray-100/10 ring-inset bg-opacity-10 bg-white hover:bg-opacity-20"
+            href="https://docs.koel.dev/plus/what-is-koel-plus"
+          >
+            Learn more
+          </a>
           <a
             class="lemonsqueezy-button inline-block transition-all bg-pink-700 ring-inset hover:ring-1 hover:ring-pink-400 px-6 py-3 rounded-md hover:bg-pink-600"
             :href="purchasePlusUrl"
