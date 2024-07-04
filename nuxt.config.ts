@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       bodyAttrs: {
         class: 'm-0 p-0 font-sans font-light antialiased min-h-screen'
       },
+      htmlAttrs: {
+        class: 'scroll-smooth'
+      },
       script: [
         {
           src: 'https://app.lemonsqueezy.com/js/lemon.js',

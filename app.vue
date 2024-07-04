@@ -1,5 +1,5 @@
 <template>
-  <div class="relative scroll-smooth text-slate-200 bg-[#0d0b17]">
+  <div class="relative text-slate-200 bg-[#0d0b17]">
     <Head lang="en">
       <Title>Koel</Title>
       <Meta name="description" content="Music streaming server that works" />
