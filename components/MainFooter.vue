@@ -29,6 +29,7 @@
       <li>
         <SponsorLogo
           :logo="whatTheDiffLogo"
+          class="grayscale invert"
           name="What The Diff"
           slogan="AI powered changelog generation"
           url="https://whatthediff.ai"
