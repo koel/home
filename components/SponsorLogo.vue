@@ -1,8 +1,5 @@
 <template>
-  <a
-    :href="sponsor.url"
-    :title="`${sponsor.name} – ${sponsor.slogan}`"
-  >
+  <a :href="sponsor.url" :title="`${sponsor.name} – ${sponsor.slogan}`">
     <img
       :alt="`${sponsor.name} logo`"
       :src="sponsor.logo"

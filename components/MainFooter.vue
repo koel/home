@@ -8,7 +8,16 @@
 
     <p>Proudly sponsored by</p>
 
-    <ul class="flex items-center place-content-center gap-2 sm:gap-3 pt-4">
+    <ul class="flex items-center place-content-center gap-2 sm:gap-4 pt-4">
+      <li>
+        <SponsorLogo
+          :logo="keycdnLogo"
+          class="h-[32px]"
+          name="KeyCDN"
+          slogan="Content Delivery Made Easy"
+          url="https://www.keycdn.com/?a=11519"
+        />
+      </li>
       <li>
         <SponsorLogo
           :logo="doLogo"
@@ -49,6 +58,7 @@
 </template>
 
 <script setup lang="ts">
+import keycdnLogo from '@/assets/img/sponsors/keycdn.svg'
 import doLogo from '@/assets/img/sponsors/do.svg'
 import whatTheDiffLogo from '@/assets/img/sponsors/what-the-diff.svg'
 import rayLogo from '@/assets/img/sponsors/ray.svg'
