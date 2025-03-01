@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
+
   app: {
     head: {
       bodyAttrs: {
@@ -17,5 +18,7 @@ export default defineNuxtConfig({
         },
       ],
     }
-  }
+  },
+
+  compatibilityDate: '2025-03-01'
 })

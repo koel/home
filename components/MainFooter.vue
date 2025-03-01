@@ -47,7 +47,7 @@
       <li>
         <SponsorLogo
           :logo="followerBoerse"
-          class="h-[22px]"
+          class="h-[22px] grayscale hover:grayscale-0"
           name="Follower Börse"
           slogan="TikTok Views kaufen"
           url="https://follower-boerse.de/produkt/tiktok-views-kaufen/"
