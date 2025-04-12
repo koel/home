@@ -8,16 +8,7 @@
 
     <p>Proudly sponsored by</p>
 
-    <ul class="flex items-center place-content-center gap-2 sm:gap-4 pt-4">
-      <li>
-        <SponsorLogo
-          :logo="keycdnLogo"
-          class="h-[32px]"
-          name="KeyCDN"
-          slogan="Content Delivery Made Easy"
-          url="https://www.keycdn.com/?a=11519"
-        />
-      </li>
+    <ul class="flex flex-wrap items-center place-content-center gap-1 sm:gap-2 pt-4">
       <li>
         <SponsorLogo
           :logo="doLogo"
@@ -53,6 +44,15 @@
           url="https://follower-boerse.de/produkt/tiktok-views-kaufen/"
         />
       </li>
+      <li>
+        <SponsorLogo
+          :logo="followHero"
+          class="h-[32px]"
+          name="Twitter Follower"
+          slogan="Echte Twitter Follower kaufen"
+          url="https://followhero.de/twitter-follower-kaufen/"
+        />
+      </li>
     </ul>
   </footer>
 </template>
@@ -63,4 +63,5 @@ import doLogo from '@/assets/img/sponsors/do.svg'
 import whatTheDiffLogo from '@/assets/img/sponsors/what-the-diff.svg'
 import rayLogo from '@/assets/img/sponsors/ray.svg'
 import followerBoerse from '@/assets/img/sponsors/follower-boerse.avif'
+import followHero from '@/assets/img/sponsors/followhero.png'
 </script>
