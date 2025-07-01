@@ -6,7 +6,7 @@
       </TypographyH2>
 
       <p>
-        Enjoy seamless integrations with popular services like Last.fm, Spotify, and YouTube.
+        Enjoy seamless integrations with popular services like MusicBrainz, Last.fm, Spotify, and YouTube.
         Your music library is automatically enriched with metadata, album arts, videos, and more,
         providing an even more complete and engaging experience.
       </p>
