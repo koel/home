@@ -11,14 +11,6 @@
     <ul class="flex flex-wrap items-center place-content-center gap-1 sm:gap-2 pt-4">
       <li>
         <SponsorLogo
-          :logo="doLogo"
-          name="DigitalOcean"
-          slogan="Cloud Infrastructure for Developers"
-          url="https://www.digitalocean.com/?refcode=5860de5f25fe&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"
-        />
-      </li>
-      <li>
-        <SponsorLogo
           :logo="whatTheDiffLogo"
           class="grayscale invert"
           name="What The Diff"
