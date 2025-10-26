@@ -8,9 +8,9 @@
       <p>
         Upload, delete, and edit metadata like title, artist, album, track, disc, and so on
         with an uncluttered and intuitive interface.
-        Compilation albums and album arts? No problem.
+        Compilation albums and artwork? No problem.
         Playlist folders and cover images? Sure.
-        Genre categorization? Already there.
+        Genre categorization? Right there.
         With Koel, your music library is exactly what it should be: <em>yours</em>.
       </p>
     </template>
