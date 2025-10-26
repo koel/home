@@ -26,8 +26,8 @@ export const plusFeatures: PlusFeature[] = [
     icon: usersIcon
   },
   {
-    title: '… And more to come!',
-    description: 'More storage drivers, custom themes, SSO, proxy auth header, synchronized lyrics… Koel Plus has many great features planned!',
+    title: '… And more!',
+    description: 'Custom themes, SSO, proxy auth header, media browser, white labeling… Koel Plus has so many more great features included!',
     icon: swatchesIcon
   }
 ]
