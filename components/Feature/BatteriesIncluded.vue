@@ -8,8 +8,8 @@
 
         <p>
           Apart from standard audio streaming functionalities, Koel includes out-of-the-box a plethora of additional
-          features, including transparent FLAC support, cross-device playback synchronization, favorites, history tracking,
-          smart playlists, multi-user support, equalizer settings, visualizers, transcoding, and so on.
+          features, including transparent lossless support, cross-device playback synchronization, favorites,
+          smart playlists, multi-user support, equalizer settings, visualizers, radio and podcast support, and so on.
         </p>
       </div>
     </FadesIntoView>
