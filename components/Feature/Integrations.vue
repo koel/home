@@ -6,7 +6,7 @@
       </TypographyH2>
 
       <p>
-        Enjoy seamless integrations with popular services like MusicBrainz, Last.fm, Spotify, and YouTube.
+        Enjoy seamless integrations with popular services like MusicBrainz, Wikipedia, Last.fm, Spotify, and YouTube.
         Your music library is automatically enriched with metadata, album arts, videos, and more,
         providing an even more complete and engaging experience.
       </p>
@@ -14,7 +14,7 @@
 
     <template #media-pane>
       <WithBacklight :color="'#49287d'">
-        <div class="integrations bg-center grid place-items-center grid-cols-3 gap-4 sm:gap-8 px-5 sm:px-12 py-8 sm:py-16">
+        <div class="integrations bg-center grid place-items-center grid-cols-4 gap-4 sm:gap-8 px-5 sm:px-12 py-8 sm:py-16">
           <IntegrationIcon v-for="icon in icons" v-bind="icon" :key="icon.src" />
         </div>
       </WithBacklight>
@@ -27,6 +27,7 @@ import IntegrationIcon from '~/components/IntegrationIcon.vue'
 import lastfmIcon from '@/assets/img/integrations/lastfm.svg'
 import spotifyIcon from '@/assets/img/integrations/spotify.svg'
 import youtubeIcon from '@/assets/img/integrations/youtube.svg'
+import musicBrainzIcon from '@/assets/img/integrations/musicbrainz.svg'
 
 interface Icon {
   src: string
@@ -34,6 +35,7 @@ interface Icon {
 }
 
 const icons: Icon[] = [
+  { src: musicBrainzIcon, alt: 'MusicBrainz' },
   { src: lastfmIcon, alt: 'Last.fm' },
   { src: spotifyIcon, alt: 'Spotify' },
   { src: youtubeIcon, alt: 'YouTube' },
