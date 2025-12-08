@@ -28,6 +28,3 @@
     </template>
   </LayoutSideBySide>
 </template>
-
-<script setup lang="ts">
-</script>

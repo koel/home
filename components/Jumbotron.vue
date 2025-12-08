@@ -3,7 +3,7 @@
     <FadesIntoView>
       <div>
         <div class="logo-wrapper relative w-40 sm:w-48 aspect-square mx-auto mb-8 sm:mb-12 rounded-2xl">
-          <div class="bg overflow-hidden p-px overflow-hidden rounded-2xl">
+          <div class="bg overflow-hidden p-px rounded-2xl">
             <img
               alt="Koel logo"
               class="p-4 bg-[#0d0b17]/90 overflow-hidden rounded-2xl backdrop-blur-md"
@@ -41,9 +41,6 @@
     </FadesIntoView>
   </section>
 </template>
-
-<script setup lang="ts">
-</script>
 
 <style lang="scss" scoped>
 .jumbotron {

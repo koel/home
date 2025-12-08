@@ -31,7 +31,3 @@
 const emit = defineEmits(['close'])
 const onMenuClick = () => emit('close')
 </script>
-
-<style scoped lang="scss">
-
-</style>

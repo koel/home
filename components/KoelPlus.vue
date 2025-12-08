@@ -6,9 +6,10 @@
           <h2 class="text-5xl mb-4 space-x-2 text-center">
             <span class="font-light inline-block">koel</span>
             <span
-              class="font-bold bg-pink-500 bg-gradient-to-br from-purple-700 to-red-500 inline-block text-transparent bg-clip-text">
-            Plus
-          </span>
+              class="font-bold bg-pink-500 bg-gradient-to-br from-purple-700 to-red-500 inline-block text-transparent bg-clip-text"
+            >
+              Plus
+            </span>
           </h2>
 
           <p class="text-center lg:px-32 text-balance">
