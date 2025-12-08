@@ -19,5 +19,8 @@
     "@vueuse/core": "^10.9.0",
     "sass": "^1.71.1"
   },
+  "optionalDependencies": {
+    "@oxc-parser/binding-linux-x64-gnu": "0.96.0"
+  },
   "packageManager": "pnpm@10.22.0"
 }
