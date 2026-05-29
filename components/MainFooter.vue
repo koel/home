@@ -27,15 +27,6 @@
           url="https://myray.app"
         />
       </li>
-      <li>
-        <SponsorLogo
-          :logo="followerBoerse"
-          class="h-[22px] grayscale hover:grayscale-0"
-          name="Follower Börse"
-          slogan="TikTok Views kaufen"
-          url="https://follower-boerse.de/produkt/tiktok-views-kaufen/"
-        />
-      </li>
     </ul>
   </footer>
 </template>
@@ -43,5 +34,4 @@
 <script setup lang="ts">
 import whatTheDiffLogo from '@/assets/img/sponsors/what-the-diff.svg'
 import rayLogo from '@/assets/img/sponsors/ray.svg'
-import followerBoerse from '@/assets/img/sponsors/follower-boerse.avif'
 </script>

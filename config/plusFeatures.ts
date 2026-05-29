@@ -12,7 +12,7 @@ export interface PlusFeature {
 export const plusFeatures: PlusFeature[] = [
   {
     title: 'Extensive storage drivers',
-    description: 'Store your files on Amazon S3 — or any compatible services such as DigitalOcean Spaces, Cloudflare R2, MinIO, etc. — and Dropbox.',
+    description: 'Store your files on Amazon S3 or any S3-compatible service, Nextcloud, ownCloud, and Dropbox.',
     icon: cloudIcon
   },
   {

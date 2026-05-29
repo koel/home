@@ -5,5 +5,6 @@
     <FeatureBuiltForSpeed />
     <FeatureMediaManagement />
     <FeatureIntegrations />
+    <FeatureSubsonicSupport />
   </section>
 </template>
