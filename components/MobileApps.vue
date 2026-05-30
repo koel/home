@@ -1,6 +1,6 @@
 <template>
   <section id="mobile" class="px-5 sm:px-16 lg:px-32 scroll-my-[128px] max-w-screen-2xl mx-auto">
-    <LayoutSideBySide :reversed="true">
+    <LayoutSideBySide>
       <template #text-pane>
         <TypographyH2>Mobile apps</TypographyH2>
         <div class="space-y-5">
